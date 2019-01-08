@@ -1,0 +1,77 @@
+#outer{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    border: 2px solid black;
+    background-color: #eef0ee;
+    flex-direction: column;
+    align-content: center;
+}
+#top{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: flex-end;
+}
+#top-right{
+    width: 320px;
+    height: 55px;
+    display: flex;
+}
+#top-right-text{
+    width: 190px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#button{
+    width: 130px;
+    height: 55px;
+    display: flex;
+}
+#text-1{
+    font-size: 10px;
+    font-family: Arial;
+}
+#text-2{
+    font-size: 10px;
+    font-family: Arial;
+    color: blue;
+}
+#sign-in{
+    color: #FFF;
+    background-color: #5995DA;
+    padding: 14px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 60px;
+    margin: 20px auto;
+    font-family: Arial;
+    font-size: 12px;
+}
+#middle{
+    width: 100%;
+    height: 630px;
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+}
+#bottom{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.text{
+    font-size: 10px;
+    font-family: Arial;
+    color: #898989;
+}
